@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg"
         href="https://raw.githubusercontent.com/YpaaWe/garge/main/support_FILL0_wght100_GRAD200_opsz48.svg">
@@ -110,8 +109,7 @@
                     <details>
                         <summary>ABC081B - Shift only</summary>
                         <pre>
-                            <code class="python">
-import numpy as np
+                            <code class="python">import numpy as np
 a=int(input())
 ary=list(map(int,input().split()))
 
@@ -131,6 +129,32 @@ while True:
         print(count)
         break
     
+                            </code>
+                        </pre>
+                    </details>
+
+                    <details style="margin-top: 1px;">
+                        <summary>ABC083B - Some Sums</summary>
+                        <pre>
+                            <code class="python"># coding: utf-8
+# Your code here!
+N,a,b=map(int,input().split())
+count=0
+def digitSum(n):
+    # 数値を文字列に変換
+    s = str(n)
+    # １文字ずつ数値化し配列にする。
+    array = list(map(int, s))
+    # 合計値を返す
+    return sum(array)
+
+for i in range(N):
+    j=i+1
+    J=digitSum(j)
+    if J>=a and J<=b:
+        count=count+j
+print(count)
+
                             </code>
                         </pre>
                     </details>
