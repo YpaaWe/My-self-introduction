@@ -158,6 +158,27 @@ print(count)
                             </code>
                         </pre>
                     </details>
+
+                    <details style="margin-top: 1px;">
+                        <summary>ABC088B - Card Game for Two</summary>
+                        <pre>
+                            <code class="python">N=int(input())
+l = list(map(int, input().split()))
+L = sorted(l,reverse=True)
+count=0
+Alice=0
+Bob=0
+for i in L:
+    if count%2==0:
+        Alice=Alice+i
+    else:
+        Bob=Bob+i
+    count=count+1
+
+print(Alice-Bob)
+                            </code>
+                        </pre>
+                    </details>
                 </details>
             </details>
         </details>
