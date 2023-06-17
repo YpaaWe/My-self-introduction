@@ -7,7 +7,7 @@
     <link rel="icon" type="image/svg"
         href="https://raw.githubusercontent.com/YpaaWe/garge/main/public_FILL0_wght400_GRAD0_opsz48.svg">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <title>ADsire</title>
+    <title>YpaaWe</title>
     <!-- https://cdnjs.com/libraries/highlight.js -->
     <!-- ↓を変更する -->
     <link rel="stylesheet"
@@ -19,17 +19,17 @@
     <script>hljs.initLineNumbersOnLoad();</script>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Zen+Old+Mincho:wght@400;900&display=swap');
+
         body {
+            font-family: 'Zen Old Mincho', serif;
             background-color: rgba(0, 0, 0, 0.25);
-            font-family: 'Noto Sans JP', sans-serif;
         }
 
         #title {
-            font-family: 'Bruno Ace', cursive;
             font-size: 25px;
-            color: rgb(255, 255, 0);
+            font-weight: bold;
+            color: rgb(0, 0, 0);
             transition: 0.5s;
             width: 100px;
             margin-right: auto;
@@ -52,13 +52,12 @@
         }
 
         #title2 {
-            font-family: 'Bruno Ace', cursive;
+            font-weight: bold;
             font-size: 50px;
-            color: rgb(255, 255, 0);
+            color: rgb(0, 0, 0);
             transition: 0.5s;
             width: 500px;
-            margin-right: auto;
-            margin-left: 33%;
+            margin-left: 36%;
         }
 
         #title2:hover {
@@ -67,7 +66,7 @@
         }
 
         details {
-            border: 1px solid #ff0000;
+            border: 1px solid #000000;
             border-radius: 1px;
             padding: 0.5em 0.5em 0;
         }
@@ -91,15 +90,21 @@
         }
 
         #ziko {
-            margin-top: 15%;
-            margin-bottom: 5%;
-            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 10%;
+            margin-left: 25%;
+            -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            line-height: 3em;
 
         }
 
         a {
-            color: yellow;
-            text-decoration: underline;
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            border-right: 1px dashed;
+            padding-right: 3px;
         }
     </style>
 </head>
@@ -118,23 +123,44 @@
                 簡単な自己紹介
             </p>
         </h1>
-        <h4 style="line-height:0.5em;">
+        <h4>
             <p>
                 2023年現在高校2年生 これから強靭になっていきます
             </p>
             <p>
-                自慢できることを書く欄
+                Web開発はそこそこできます。Rubyとかもいじりたい
             </p>
             <p>
-                ↓リンク
+                好きな音楽はプログレ 特にジョジョの影響で
+                <a href="https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%A8%E3%82%B9_(%E3%83%90%E3%83%B3%E3%83%89)"
+                    target="_blank">Yes</a>
+                が好き
             </p>
-            <a href="https://www.youtube.com/@ypaawe">Youtube</a>
-            <a href="https://github.com/YpaaWe">Github</a>
-            <a href="https://twitter.com/YpaaWe">twitter</a>
+            <p>
+                Youtubeは一応数学解説チャンネルをやっているが総再生回数十万超えたらかもう満足
+            </p>
+            <p>
+                情報処理安全確保支援士試験とかいうのをとりたいハッカー見習い
+            </p>
+            <p>
+                最近は仮想環境でよく遊んでいる
+            </p>
+            <p>
+                自慢できることを書く欄
+            </p>
+            <p style="font-family: 'Libre Barcode 39 Text', cursive;">
+                YpaaWeYpaaWeYpaaWeYpaaWeYpaaWe
+            </p>
+            <p>
+                &#x261c;リンク
+            </p>
+            <a href="https://www.youtube.com/@ypaawe" target="_blank">Youtube</a>
+            <a href="https://github.com/YpaaWe" target="_blank">Github</a>
+            <a href="https://twitter.com/YpaaWe" target="_blank">Twitter</a>
         </h4>
     </div>
     <div id="center">
-        <p id="title2">my source code</p>
+        <p id="title2">My Source Code</p>
 
         <details>
             <summary>Atcorder</summary>
